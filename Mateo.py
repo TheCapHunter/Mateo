@@ -65,4 +65,4 @@ async def magicball():
         print('magic ball says {responses}')
         
 	
-bot.run(os.getenv('Token')
+client.run(os.getenv('Token')
