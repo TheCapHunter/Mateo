@@ -10,4 +10,4 @@ async def on_ready():
 	print(bot.user.name)
 	print(bot.user.id)
 
-bot.run(os.genev("Token")
+bot.run(os.getenv("Token")
